@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain visualizer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Decentralized Ledger Insights & Visualizer </h1>
+        <p>Add new transactions and see how the chain links! and Check the Chain the Valid or not </p>
+        <p>If you click Tamper, Data is modified and the Chain becomes invalid</p>
+        
+        <div class="controls">
+            <input type="number" id="amount" placeholder="Enter Amount">
+            <button onclick="addNewBlock()">Add Block</button>
+            <button onclick="validateChain()" class="val-btn">Validate Chain</button>
+            <button onclick="tamperData()" style="background: linear-gradient(to right, #ff416c, #ff4b2b);">Tamper Data</button>
+        </div>
+
+        <div id="blockchain-display" class="chain-container">
+            </div>
+
+        <p id="status-message"></p>
+    </div>
+
+    <script src="blockchain.js"></script>
+</body>
+</html>
