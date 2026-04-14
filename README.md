@@ -1,5 +1,5 @@
-Project Title : # Decentralized Ledger Insights and Visualizer
-# Blockchain Visualizer with Node.js & MySQL
+# Project Title :  Decentralized Ledger Insights and Visualizer 
+ Blockchain Visualizer with Node.js & MySQL
 
 ## Setup Instructions
 1. Clone the repository.
