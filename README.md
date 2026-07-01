@@ -3,7 +3,7 @@
 Live Link : https://malarkoditt.github.io/Decentralized-Ledger-Insights-Visualizer/
 
 
- Blockchain Visualizer with Node.js & MySQL
+ Blockchain Visualizer with Node.js & MySQL .
 
 ## Setup Instructions
 1. Clone the repository.
